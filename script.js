@@ -39,7 +39,7 @@ function verificar(){
         } 
 
         else if (genero_feminino.checked) {
-            var genero = 'Mulher'
+            var genero = 'mulher'
 
             if ( idade >=0 && idade <10){
                 img.setAttribute('src','foto-bebe-f.png')
@@ -61,7 +61,7 @@ function verificar(){
             }
         }
         res.style.textAlign= 'center' //alinha para o centro
-        res.innerHTML = `Detectamos um ${genero} com ${idade} anos`
+        res.innerHTML = `Detectamos um(a) ${genero} com ${idade} anos`
         res.appendChild(img)
     }
     
